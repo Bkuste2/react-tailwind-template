@@ -1,0 +1,10 @@
+{
+  "Create Functional Component File Setup": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "cs",
+    "body": [
+      "const [$1, set${2:$1}] = useState<$3>($4)",
+    ],
+    "description": "Snippet to initial setup to functional component file"
+  }
+}
