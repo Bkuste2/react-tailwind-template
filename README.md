@@ -1,27 +1,52 @@
-# React + TypeScript + Vite
+# React + Tailwind + Eslint/Prettier
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a basic setup to work with React (Vite), tailwind and uses a rocketseat config for eslint (with prettier plugin)
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [@vite](https://vitejs.dev/)
+- [@tailwind](https://tailwindcss.com/docs/guides/vite)
+- [@eslint](https://eslint.org/)
+- [@prettier](https://prettier.io/)
+- [@rocketseat-eslint-config](https://github.com/Rocketseat/eslint-config-rocketseat.git)
 
-## Expanding the ESLint configuration
+<br/>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## To use this template you need to follow the next steps
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+	git clone https://github.com/Bkuste2/react-tailwind-template.git
+	cd react-tailwind-template
+	yarn install
+	yarn dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<br/>
+
+## Snippets
+
+### fc
+
+Create a simple functional component initial setup
+
+```javascript
+	export interface FilenameProps {}
+
+	export const Filename: React.FC<FilenameProps> = () => {
+		return (
+			<div className="">
+				<h1>Filename</h1>
+			</div>
+		)
+	}
+```
+
+<br/>
+
+### cs
+
+Create all useState structure
+
+```javascript
+	const [$1, set${2:$1}] = useState<$3>($4)
+```
