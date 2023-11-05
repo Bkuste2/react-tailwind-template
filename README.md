@@ -29,6 +29,7 @@ These aliases are pre-configured in the project to help you with development
 - @pages
 - @components
 - @services
+- @contexts
 -	@helpers
 - @types
 
@@ -56,7 +57,7 @@ export default defineConfig({
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"],
-      "your_alias/*": ["folder_path/*"],
+      "your_alias/*": ["folder_path/*"]
     }
   }
 }
