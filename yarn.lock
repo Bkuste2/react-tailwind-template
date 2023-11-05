@@ -626,6 +626,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@remix-run/router@npm:1.11.0":
+  version: 1.11.0
+  resolution: "@remix-run/router@npm:1.11.0"
+  checksum: 1966436ab3ab982862195e4871790644ce21e01511aa3f4350436296224e4dec2e6ee35f1f4cb83db69f7aa0e8ad4a0a01928b05359ae654edc8e2aa82bf754b
+  languageName: node
+  linkType: hard
+
 "@rocketseat/eslint-config@npm:^2.1.0":
   version: 2.1.0
   resolution: "@rocketseat/eslint-config@npm:2.1.0"
@@ -650,6 +657,31 @@ __metadata:
     typescript:
       optional: true
   checksum: 05cac55280d9bbd8542d29ce1c9ed66b5557c48e60b4ce70a68731b2b36dc594857ccfd4ca09b583e5d440708a5511836df8a0e34edfce646167f0834a503aa7
+  languageName: node
+  linkType: hard
+
+"@tanstack/query-core@npm:5.4.3":
+  version: 5.4.3
+  resolution: "@tanstack/query-core@npm:5.4.3"
+  checksum: 961701ed2978da4fc7862896bdd75a3333f71fdae568809896d6578a88609e6f5527eea363d68893110654f47a2876d3f0f54f1f594a64271eea4e37f2325f03
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.7.0":
+  version: 5.7.0
+  resolution: "@tanstack/react-query@npm:5.7.0"
+  dependencies:
+    "@tanstack/query-core": 5.4.3
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+    react-native: "*"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+  checksum: fa8c766d27d048b738eac96e4f7f1d93419469cba757898a718be77396d9aa9ac9d0ce377d2fb417db3b6bdcf69851ff80a7f83b4c844d24ad867776f664d2ac
   languageName: node
   linkType: hard
 
@@ -4322,11 +4354,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:^6.18.0":
+  version: 6.18.0
+  resolution: "react-router-dom@npm:6.18.0"
+  dependencies:
+    "@remix-run/router": 1.11.0
+    react-router: 6.18.0
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: ca5c9a9f748f4ff9677d25762970fc59cb216568aad0ebc668b22398222a940f767680bc9a3e65a92e940d3fe05731eda8a4b352ccbf1054904b3b785a9f5e6f
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.18.0":
+  version: 6.18.0
+  resolution: "react-router@npm:6.18.0"
+  dependencies:
+    "@remix-run/router": 1.11.0
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 03e9a23c5b75d8813720745e2952bb9e62ec310d238cde4f19e0ce73582701fa5e04cf609ff9ced978e9e6c531b5e333b9aee35371e6c4743afc2829e32e926a
+  languageName: node
+  linkType: hard
+
 "react-tailwind-template@workspace:.":
   version: 0.0.0-use.local
   resolution: "react-tailwind-template@workspace:."
   dependencies:
     "@rocketseat/eslint-config": ^2.1.0
+    "@tanstack/react-query": ^5.7.0
     "@types/node": ^20.8.10
     "@types/react": ^18.2.15
     "@types/react-dom": ^18.2.7
@@ -4343,6 +4400,7 @@ __metadata:
     prettier-plugin-tailwindcss: ^0.5.6
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-router-dom: ^6.18.0
     tailwindcss: ^3.3.5
     typescript: ^5.0.2
     vite: ^4.4.5
