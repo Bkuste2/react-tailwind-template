@@ -1,9 +1,14 @@
 # React + Tailwind + Eslint/Prettier
 
-This template provides a basic setup to work with React (Vite), tailwind and uses a rocketseat config for eslint (with prettier plugin)
+This template provides a basic setup for working with `React` (Vite). Here we use `tailwind` for styles, `Axios` and `tanstack/react-query` for data fetching and we use `rocketseat/eslint-config` for eslint (with prettier plugin) to promote better code standardization.
+<br/>
+
+Additionally, we provide some `aliases` to make it easier to import folders.
 
 - [@vite](https://vitejs.dev/)
 - [@tailwind](https://tailwindcss.com/docs/guides/vite)
+- [@Axios](https://axios-http.com/ptbr/docs/intro)
+- [@React Query](https://tanstack.com/query/latest/docs/react/overview)
 - [@eslint](https://eslint.org/)
 - [@prettier](https://prettier.io/)
 - [@rocketseat-eslint-config](https://github.com/Rocketseat/eslint-config-rocketseat.git)
@@ -56,7 +61,7 @@ export default defineConfig({
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./src/*"], // example
       "your_alias/*": ["folder_path/*"]
     }
   }
