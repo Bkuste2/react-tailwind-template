@@ -26,6 +26,7 @@
 			"@pages/*": ["./src/pages/*"],
 			"@components/*": ["./src/components/*"],
 			"@services": ["./src/services/*"],
+			"@contexts": ["./src/contexts/*"],
 			"@helpers/*": ["./src/helpers/*"],
 			"@types/*": ["./src/types/*"],
 		}
