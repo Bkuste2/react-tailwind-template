@@ -12,15 +12,15 @@
 			"",
 			"export const Default: StoryObj = {}"
     ],
-    "description": "Snippet to initial setup to functional component file"
+    "description": "Snippet to initial setup StorybookFile"
   },
-	
+
 	"Create StoryBook Variant": {
     "scope": "javascript, typescript, typescriptreact, javascriptreact",
     "prefix": "sbv",
     "body": [
 			"export const ${1:Default}: StoryObj = {}"
     ],
-    "description": "Snippet to initial setup to functional component file"
+    "description": "Snippet create an storybook variant"
   }
 }
