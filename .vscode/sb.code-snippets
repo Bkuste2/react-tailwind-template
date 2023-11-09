@@ -1,0 +1,26 @@
+{
+  "Create StoryBook Initial Setup": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "sb",
+    "body": [
+      "import { Meta, StoryObj } from '@storybook/react'",
+			"",
+			"export default {",
+			"  title: 'Component/${1:ComponentName}',",
+			"  component: ${2:ComponentName},",
+			"} as Meta",
+			"",
+			"export const Default: StoryObj = {}"
+    ],
+    "description": "Snippet to initial setup to functional component file"
+  },
+	
+	"Create StoryBook Variant": {
+    "scope": "javascript, typescript, typescriptreact, javascriptreact",
+    "prefix": "sbv",
+    "body": [
+			"export const ${1:Default}: StoryObj = {}"
+    ],
+    "description": "Snippet to initial setup to functional component file"
+  }
+}
