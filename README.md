@@ -97,3 +97,29 @@ Create all useState structure
 ```javascript
 const [$1, set${2:$1}] = useState<$3>($4)
 ```
+
+<br/>
+
+### sb
+
+Snippet to initial setup StorybookFile
+
+```javascript
+import { Meta, StoryObj } from '@storybook/react'
+
+export default {
+	title: 'Component/ComponentName',
+	component: ComponentName,
+} as Meta
+
+export const Default: StoryObj = {}
+
+<br/>
+
+### sbv
+
+Snippet create an storybook variant
+
+```javascript
+export const ${1:Default}: StoryObj = {}
+```
