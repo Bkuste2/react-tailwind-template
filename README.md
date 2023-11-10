@@ -9,6 +9,7 @@ Additionally, we provide some `aliases` to make it easier to import folders.
 - [@tailwind](https://tailwindcss.com/docs/guides/vite)
 - [@Axios](https://axios-http.com/ptbr/docs/intro)
 - [@React Query](https://tanstack.com/query/latest/docs/react/overview)
+- [@Storybook](https://storybook.js.org/docs/react/get-started/install/)
 - [@eslint](https://eslint.org/)
 - [@prettier](https://prettier.io/)
 - [@rocketseat-eslint-config](https://github.com/Rocketseat/eslint-config-rocketseat.git)
