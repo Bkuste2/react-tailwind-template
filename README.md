@@ -113,6 +113,7 @@ export default {
 } as Meta
 
 export const Default: StoryObj = {}
+```
 
 <br/>
 
@@ -122,4 +123,3 @@ Snippet create an storybook variant
 
 ```javascript
 export const ${1:Default}: StoryObj = {}
-```
